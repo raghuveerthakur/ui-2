@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 1000px;
+    background-color: #E5D7D2;
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding-bottom: 3%;
+}
+.section1{
+    width: 25%;
+    height: 700px;
+    background-color: #D1EDC0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section1 h1{
+text-align: center;
+font-size: 40px;
+}
+.section1 p{
+    text-align: start;
+    font-size: 20px;
+    margin-left: 25%;
+}
+.section1 button{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  margin-left: 10%;
+  border: none;
+  margin-top: 2%;
+  font-size: 18px;
+}
+.section2{
+    width: 25%;
+    height: 680px;
+    background-color: #FAF4F1;
+    border-radius: 20px;
+   margin-bottom: 10%;
+}
+.patel{
+    background-color: #FAF4F1;
+    border-radius: 20px;
+}
+.patel span{
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+}
+.patel i{
+font-size: 30px;
+}
+.patel p{
+    margin-right: 50%;
+}
+.patel h6{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.patel label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.patel label i{
+    font-size: 20px;
+}
+.don{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.don i{
+    font-size: 20px;
+}
+.don p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.future{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.future h6{
+    font-size: 25px;
+}
+.future a{
+    font-size: 20px;
+    margin-top: 5%;
+    color: gray;
+    text-decoration: none;
+    margin-right: 5%;
+}
+.box img{
+    margin-top: 5%;
+}
+.don2{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.don2 span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+    margin-top: 5%;
+}
+.don2 span h6{
+    font-size: 20px;
+}
+.don2 span p{
+    font-size: 18px;
+    color: gray;
+}
+.boy{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.boy h5{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight:700;
+}
+.boy h6{
+    font-weight: 300;
+}
+.boy label{
+    margin-left: 5%;
+}
+.boy2{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid gray;
+    border-bottom: 10px solid white;
+    border-radius: 20px;
+}
+.boy2 h5{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight:700;
+}
+.boy2 h6{
+    font-weight: 300;
+}
+.boy2 {
+    padding-bottom: 5%;
+}
+.thakur{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+    border-radius: 20px;
+}
+.section3{
+    width: 25%;
+    height: 700px;
+    background-color: #D1EDC0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.part1{
+    width: 100%;
+    height: 100px;
+    background-color: #D1EDC0;
+    border-radius: 20px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.part2{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 10px solid white;
+}
+.past{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.past h6{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.past span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.past span p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.gray{
+    width: 90%;
+    height: 5px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.blue{
+    width: 80%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.sub-box label{
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+}
+.past2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.list{
+    width: 40%;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFE7AB;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+   padding-left: 5%;
+}
+.list p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.list span{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+.list span h6{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.udana{
+    width: 100%;
+   display: flex;
+   align-items: start;
+   justify-content: space-evenly;
+   flex-direction: column;
+   padding-left: 10%;
+}
+.udana h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.udana p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.last-section{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+    border-radius: 20px;  
+}
+
+
+
+
+
+
+/* responsive */
+@media(max-width:768px){
+.main-container{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    width: 70%;
+   height: 700px;
+} 
+.section2{
+    width: 70%;
+   height: auto;
+margin-top: 30px;
+}  
+.section3{
+    width: 70%;
+   height: auto;
+} 
+
+
+
+
+
+
+
+
+
+
+}
